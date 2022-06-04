@@ -6,7 +6,7 @@ from sobelparallelcache import SobelParallelCache
 import time
 
 if __name__ == "__main__":
-    for i in range(1, 11):
+    for i in range(1, 15):
         input_image = 'images/input/i_' + str(i) + '.jpeg'
         output_image = 'images/output/o_' + str(i) + '.jpeg'
         start_time = time.time()
